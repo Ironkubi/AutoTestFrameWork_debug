@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DP-20201027YCBD",
+    "children" : [ {
+      "name" : "2584-MainThread",
+      "children" : [ {
+        "name" : "测试用例1",
+        "uid" : "3c87ffa096f04c0d",
+        "parentUid" : "2ac733a4447e140edb7be5238ae8535d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609309110931,
+          "stop" : 1609309110931,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例3",
+        "uid" : "3f551e3771144f8a",
+        "parentUid" : "2ac733a4447e140edb7be5238ae8535d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609309110935,
+          "stop" : 1609309110935,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例2",
+        "uid" : "149342e437128dc5",
+        "parentUid" : "2ac733a4447e140edb7be5238ae8535d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609309110933,
+          "stop" : 1609309110933,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ac733a4447e140edb7be5238ae8535d"
+    } ],
+    "uid" : "6218ac9b5541d08cfecdc76140f9bccc"
+  } ]
+}
