@@ -1,0 +1,64 @@
+{
+  "uid" : "20bc693612bb5225",
+  "name" : "test_08",
+  "fullName" : "Allure.Allure_Features#test_08",
+  "historyId" : "41ce5ce33a64b09f3fb80bd8ef4ad07f",
+  "time" : {
+    "start" : 1609400142011,
+    "stop" : 1609400142011,
+    "duration" : 0
+  },
+  "description" : "\n    用例描述：Test case 04\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：Test case 04\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_severity"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "story",
+    "value" : "test_story_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure"
+  }, {
+    "name" : "suite",
+    "value" : "Allure_Features"
+  }, {
+    "name" : "host",
+    "value" : "DP-20201027YCBD"
+  }, {
+    "name" : "thread",
+    "value" : "9920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Allure.Allure_Features"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20bc693612bb5225.json",
+  "parameterValues" : [ ]
+}

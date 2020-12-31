@@ -1,0 +1,63 @@
+{
+  "uid" : "916db100de8bbc72",
+  "name" : "test_with_testcase",
+  "fullName" : "Allure.Allure_Features#test_with_testcase",
+  "historyId" : "f75f37ff06545a51d89ab10e087f3be8",
+  "time" : {
+    "start" : 1609400142060,
+    "stop" : 1609400142060,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_testcase"
+  }, {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure"
+  }, {
+    "name" : "suite",
+    "value" : "Allure_Features"
+  }, {
+    "name" : "host",
+    "value" : "DP-20201027YCBD"
+  }, {
+    "name" : "thread",
+    "value" : "9920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Allure.Allure_Features"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test case title",
+    "url" : "https://github.com/qameta/allure-integrations/issues/8#issuecomment-268313637",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "916db100de8bbc72.json",
+  "parameterValues" : [ ]
+}

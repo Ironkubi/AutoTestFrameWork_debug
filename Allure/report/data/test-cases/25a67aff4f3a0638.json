@@ -1,0 +1,135 @@
+{
+  "uid" : "25a67aff4f3a0638",
+  "name" : "test_login",
+  "fullName" : "Allure.Allure_Features#test_login",
+  "historyId" : "56f708f21e9861de186eeee1271c91ef",
+  "time" : {
+    "start" : 1609400142051,
+    "stop" : 1609400142052,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证登录过程",
+      "time" : {
+        "start" : 1609400142052,
+        "stop" : 1609400142052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "打开网站首页",
+        "time" : {
+          "start" : 1609400142052,
+          "stop" : 1609400142052,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "输入账号、密码",
+        "time" : {
+          "start" : 1609400142052,
+          "stop" : 1609400142052,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "输入账号、密码'xiaoqiang'，'1'，并点击登录",
+          "time" : {
+            "start" : 1609400142052,
+            "stop" : 1609400142052,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "'xiaoqiang'"
+          }, {
+            "name" : "arg2",
+            "value" : "'1'"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_step"
+  }, {
+    "name" : "story",
+    "value" : "test_story_03"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure"
+  }, {
+    "name" : "suite",
+    "value" : "Allure_Features"
+  }, {
+    "name" : "host",
+    "value" : "DP-20201027YCBD"
+  }, {
+    "name" : "thread",
+    "value" : "9920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Allure.Allure_Features"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25a67aff4f3a0638.json",
+  "parameterValues" : [ ]
+}

@@ -7,6 +7,7 @@
 # 5.所有同目录测试文件运行前都会执行conftest.py文件
 
 import pytest
+
 @pytest.fixture()
 def login():
     print('\n---------------conftest文件login方法开始执行----------------------------')

@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0",
+      "children" : [ {
+        "name" : "test_03",
+        "uid" : "5765cabe476e7c05",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609400141924,
+          "stop" : 1609400141924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_05",
+        "uid" : "6bc7f4dbab1409d6",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609400141994,
+          "stop" : 1609400141994,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_07",
+        "uid" : "9980e1617458d817",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609400142004,
+          "stop" : 1609400142004,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c77d7ae15b4ab6e63220cefc19b68f"
+    }, {
+      "name" : "AssertionError: assert 3 == 5\n  -3\n  +5",
+      "children" : [ {
+        "name" : "Parameterized test title: adding 1 with 2",
+        "uid" : "9d3c1b6b1d670e25",
+        "parentUid" : "48d024df70730c5107a6d8af7eec372b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609400142019,
+          "stop" : 1609400142019,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5", "1", "2" ]
+      } ],
+      "uid" : "48d024df70730c5107a6d8af7eec372b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

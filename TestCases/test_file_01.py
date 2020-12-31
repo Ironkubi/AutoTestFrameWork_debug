@@ -5,8 +5,10 @@
 # version : python 3.7.8
 # test_file_01.py
 import pytest
+import allure
 
 
+# @allure.feature("测试模块1")
 def test_01(login):
     print('\n------------------用例文件1测试用例1开始执行------------------')
     print('login after : in test_file_01->case test_01')

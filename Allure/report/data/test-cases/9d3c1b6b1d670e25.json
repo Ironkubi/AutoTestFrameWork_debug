@@ -1,0 +1,74 @@
+{
+  "uid" : "9d3c1b6b1d670e25",
+  "name" : "Parameterized test title: adding 1 with 2",
+  "fullName" : "Allure.Allure_Features#test_10",
+  "historyId" : "db27460d0f29961c5bd16465e096d713",
+  "time" : {
+    "start" : 1609400142019,
+    "stop" : 1609400142019,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 5\n  -3\n  +5",
+  "statusTrace" : "param1 = 1, param2 = 2, expected = 5\n\n    @allure.feature('test_module_title')\n    @allure.story('test_story_02')\n    @allure.title(\"Parameterized test title: adding {param1} with {param2}\")\n    @pytest.mark.parametrize('param1,param2,expected', [(2, 2, 4), (1, 2, 5)])\n    def test_10(param1, param2, expected):\n>       assert param1 + param2 == expected\nE       assert 3 == 5\nE         -3\nE         +5\n\nAllure_Features.py:115: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_title"
+  }, {
+    "name" : "story",
+    "value" : "test_story_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure"
+  }, {
+    "name" : "suite",
+    "value" : "Allure_Features"
+  }, {
+    "name" : "host",
+    "value" : "DP-20201027YCBD"
+  }, {
+    "name" : "thread",
+    "value" : "9920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Allure.Allure_Features"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "5"
+  }, {
+    "name" : "param1",
+    "value" : "1"
+  }, {
+    "name" : "param2",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9d3c1b6b1d670e25.json",
+  "parameterValues" : [ "5", "1", "2" ]
+}

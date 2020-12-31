@@ -1,0 +1,46 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","1","Allure","Allure_Features","","","","test_login",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","This test has a custom title",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","1","Allure","Allure_Features","","","","用于描述用例名称",""
+"failed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_07","
+    用例描述：Test case 03
+    "
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_with_fixture_step",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","After a successful test finish, the title was replaced with this line.",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_case_10",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","Parameterized test title: adding 2 with 2",""
+"passed","Thu Dec 31 15:35:41 CST 2020","Thu Dec 31 15:35:41 CST 2020","0","Allure","Allure_Features","","","","test_04","
+    用例描述：Test case 02
+    "
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_with_testcase",""
+"failed","Thu Dec 31 15:35:41 CST 2020","Thu Dec 31 15:35:41 CST 2020","0","Allure","Allure_Features","","","","test_03","
+    用例描述：Test case 01
+    "
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","1","Allure","Allure_Features","","","","test_with_nested_steps",""
+"passed","Thu Dec 31 15:35:41 CST 2020","Thu Dec 31 15:35:41 CST 2020","0","Allure","Allure_Features","","","","test_02","
+    用例描述：Test case 02
+    "
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","TestAllure","","","测试用例8","<font color='red'>实际结果:</br> </font>test17"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","TestAllure","","","测试用例9","<font color='red'>实际结果:</br> </font>test18"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","用于描述用例名称","这是用例描述"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_14",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_with_link",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_15","修改后的测试用例描述信息"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_12","
+    测试用例描述信息
+    "
+"failed","Thu Dec 31 15:35:41 CST 2020","Thu Dec 31 15:35:41 CST 2020","0","Allure","Allure_Features","","","","test_05","
+    用例描述：Test case 01
+    "
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_with_issue",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","TestAllure","","","测试用例7","<font color='red'>实际结果:</br> </font>test16"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_13","测试用例描述信息"
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","2","Allure","Allure_Features","","","","test_attach",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_06","
+    用例描述：Test case 02
+    "
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","test_08","
+    用例描述：Test case 04
+    "
+"failed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","0","Allure","Allure_Features","","","","Parameterized test title: adding 1 with 2",""
+"passed","Thu Dec 31 15:35:42 CST 2020","Thu Dec 31 15:35:42 CST 2020","2","Allure","Allure_Features","","","","test_attachments",""
