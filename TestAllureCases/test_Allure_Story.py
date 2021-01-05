@@ -7,10 +7,10 @@ import allure
 import pytest
 import os
 
-
+# @allure.story() 用于描述feature的用户场景，即测试需求
 @allure.feature('test_module_story')
 @allure.story('test_story_01')
-def test_03():
+def test_01():
     """
     用例描述：在运行 pytest 时添加选项 --allure-stories
     pytest tests.py --allure-stories story1,story_2
@@ -19,7 +19,7 @@ def test_03():
 
 @allure.feature('test_module_story')
 @allure.story('test_story_02')
-def test_04():
+def test_02():
     """
     用例描述：在运行 pytest 时添加选项 --allure-stories
     pytest tests.py --allure-stories story1,story_2
