@@ -1,9 +1,9 @@
 # -*-coding:utf-8 -*-
-# File : test_file_01.py
+# File : test_01.py
 # @Time : 2020/12/26 9:08
 # @Author : Sf
 # version : python 3.7.8
-# test_file_01.py
+# test_01.py
 import pytest
 
 
@@ -14,4 +14,4 @@ def test_01(login):
 
 
 if __name__ == "__main__":
-    pytest.main(['-vs', 'test_file_01.py'])
+    pytest.main(['-vs', 'test_01.py'])
