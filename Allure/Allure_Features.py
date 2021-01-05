@@ -372,6 +372,6 @@ class TestAllure:
 
 if __name__ =="__main__":
     # 执行pytest单元测试，生成 Allure 报告需要的数据存在 /temp 目录
-    pytest.main(["-s", "-q", "Allure_Features.py", "--alluredir", "./allure-results"])
+    pytest.main(["-s", "-q", "Allure_Features.py", "--alluredir", "./Allure-results"])
     # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告
-    os.system("allure generate ./allure-results/ -o ./allure-report/ --clean")
+    os.system("allure generate ./allure-results/ -o ./Allure-report/ --clean")
