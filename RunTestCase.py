@@ -15,7 +15,7 @@ def main():
     if ROOT_DIR not in sys.path:
         sys.path.append(ROOT_DIR)
     # 执行用例
-    args = ['--reruns', '1', "--alluredir", "./Allure-Results/", "--clean-alluredir", '--html=' + './Pytest-Report/' + HTML_NAME]
+    args = [ "--alluredir", "./Allure-Results/", "--clean-alluredir", '--html=' + './Pytest-Report/' + HTML_NAME]
     pytest.main(args)
     os.system("allure serve Allure-Results")
 
