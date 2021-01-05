@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Dec 30 14:18:30 CST 2020","Wed Dec 30 14:18:30 CST 2020","0","","debug_allure","TestAllure","","","测试用例3","<font color='red'>实际结果:</br> </font>test3"
-"passed","Wed Dec 30 14:18:30 CST 2020","Wed Dec 30 14:18:30 CST 2020","0","","debug_allure","TestAllure","","","测试用例1","<font color='red'>实际结果:</br> </font>test1"
-"passed","Wed Dec 30 14:18:30 CST 2020","Wed Dec 30 14:18:30 CST 2020","0","","debug_allure","TestAllure","","","测试用例2","<font color='red'>实际结果:</br> </font>test2"

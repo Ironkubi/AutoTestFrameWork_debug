@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
-# File : Allure_Features.py
-# @Time : 2020/12/31 8:40
+# File : allure_all.py
+# @Time : 2021/1/5 16:15
 # @Author : Sf
 # version : python 3.7.8
 import allure
@@ -173,7 +173,7 @@ def str_add(str1, str2):
 @allure.story('test_story_01')
 @allure.issue("http://www.baidu.com")
 @allure.testcase("http://www.testlink.com")
-def test_case_10():
+def test_15():
     str1 = 'hello'
     str2 = 'world'
     assert str_add(str1, str2) == 'helloworld'
@@ -322,7 +322,7 @@ def login():
 @allure.feature('用于描述被测试产品需求')
 @allure.story('用于描述feature的用户场景，即测试需求')
 @allure.title('用于描述用例名称')
-def test_01():
+def test_17():
     login()
 
     # 可以在用例内部编写用例步骤，等同于@allure.step()
@@ -333,7 +333,7 @@ def test_01():
     pass
 
 
-def test02():
+def test_18():
     allure.dynamic.severity('critical')
     allure.dynamic.feature('用于描述被测试产品需求')
     allure.dynamic.story('用于描述feature的用户场景，即测试需求')
@@ -371,7 +371,7 @@ class TestAllure:
 
 
 if __name__ =="__main__":
-    # 执行pytest单元测试，生成 Allure 报告需要的数据存在 /temp 目录
-    pytest.main(["-s", "-q", "Allure_Features.py", "--alluredir", "./Allure-Results", "--clean-alluredir"])
+    # 执行pytest单元测试，生成 TestAllureCases 报告需要的数据存在 /temp 目录
+    pytest.main(["-s", "-q", "allure_all.py", "--alluredir", "./TestAllureCases-Results", "--clean-alluredir"])
     # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告
-    os.system("allure generate ./Allure-Results/ -o ./Allure-Report/ --clean")
+    os.system("allure generate ./TestAllureCases-Results/ -o ./TestAllureCases-Report/ --clean")
