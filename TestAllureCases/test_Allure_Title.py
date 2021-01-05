@@ -8,30 +8,37 @@ import pytest
 import os
 
 
-# @allure.title() 用于描述用例名称
-# https://www.how2xue.com/chat/subject/form/cd33908c9b5940ab9259e0eded5a85ad
-"""使用@allure.title 装饰器使测试标题更具可读性"""
-@allure.feature('test_module_title')
-@allure.story('test_story_01')
+@allure.feature("feature_title")
+@allure.story("story_title_01")
 @allure.title("This test has a custom title")
-def test_09():
+def test_title_01():
+    """
+    用例描述：@allure.title(), 用于描述用例名称
+    """
     assert 1
+
 
 # 使用参数占位符获取参数
-@allure.feature('test_module_title')
-@allure.story('test_story_02')
+@allure.feature("feature_title")
+@allure.story("story_title_02")
 @allure.title("Parameterized test title: adding {param1} with {param2}")
-@pytest.mark.parametrize('param1,param2,expected', [(2, 2, 4), (1, 2, 5)])
-def test_10(param1, param2, expected):
+@pytest.mark.parametrize("param1,param2,expected", [(2, 2, 4), (1, 2, 5)])
+def test_title_02(param1, param2, expected):
+    """
+    用例描述：@allure.title() 用于描述用例名称，使用参数占位符获取参数
+    """
     assert param1 + param2 == expected
 
-@allure.feature('test_module_title')
-@allure.story('test_story_03')
+
+@allure.feature("feature_title")
+@allure.story("story_title_03")
 @allure.title("This title will be replaced in a test body")
-def test_11():
+def test_title_03():
+    """
+    用例描述：@allure.title() 用于描述用例名称，动态更新 title
+    """
     assert 1
-    # 动态更新 title
-    allure.dynamic.title('After a successful test finish, the title was replaced with this line.')
+    allure.dynamic.title("After a successful test finish, the title was replaced with this line.")
 
 
 if __name__ =="__main__":

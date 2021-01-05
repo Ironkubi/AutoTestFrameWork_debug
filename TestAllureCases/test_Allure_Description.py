@@ -8,36 +8,42 @@ import pytest
 import os
 
 
-# @allure.description() 用于描述用例，支持html显示
-# https://www.how2xue.com/chat/subject/form/cd33908c9b5940ab9259e0eded5a85ad
-# @allure.description(str）
-# 在测试用例函数声明下方添加""" """
-# @allure.description_html(str）：相当于传一个HTML代码组成的字符串，类似allure.attach()中传HTML
-# 使用 allure.dynamic.description() 或 allure.dynamic.description_html() 动态更新描述
-@allure.feature('test_module_用例描述')
-@allure.story('test_story_01')
-def test_12():
+@allure.feature("feature_Description")
+@allure.story('story_Description')
+def test_Description_01():
     """
-    测试用例描述信息
+    用例描述：在测试用例函数声明下方添加
     """
     assert 1
 
-@allure.feature('test_module_description')
-@allure.story('test_story_02')
+
+@allure.feature("feature_Description")
+@allure.story('story_Description')
 @allure.description("测试用例描述信息")
-def test_13():
+def test_Description_02():
+    """
+    用例描述：@allure.description() 用于描述用例，支持html显示
+    """
     assert 1
 
-@allure.feature('test_module_description')
-@allure.story('test_story_03')
+
+@allure.feature('feature_Description')
+@allure.story('story_Description')
 @allure.description_html("<head></head><body> 测试用例描述信息 </body>")
-def test_14():
+def test_Description_03():
+    """
+    用例描述：@allure.description_html(str）：相当于传一个HTML代码组成的字符串，类似allure.attach()中传HTML
+    """
     assert 1
 
-@allure.feature('test_module_description')
-@allure.story('test_story_04')
+
+@allure.feature('feature_Description')
+@allure.story('story_Description')
 @allure.description("测试用例描述信息")
-def test_15():
+def test_Description_04():
+    """
+    用例描述：使用 allure.dynamic.description() 或 allure.dynamic.description_html() 动态更新描述
+    """
     allure.dynamic.description("修改后的测试用例描述信息")
     assert 1
 

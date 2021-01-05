@@ -7,25 +7,25 @@ import allure
 import pytest
 import os
 
-# @allure.story() 用于描述feature的用户场景，即测试需求
-@allure.feature('test_module_story')
-@allure.story('test_story_01')
-def test_01():
-    """
-    用例描述：在运行 pytest 时添加选项 --allure-stories
-    pytest tests.py --allure-stories story1,story_2
-    """
-    assert 0
 
-@allure.feature('test_module_story')
-@allure.story('test_story_02')
-def test_02():
+@allure.feature('feature_story')
+@allure.story('story_01')
+def test_story_01():
     """
-    用例描述：在运行 pytest 时添加选项 --allure-stories
-    pytest tests.py --allure-stories story1,story_2
+    用例描述：@allure.story() ,用于描述feature的用户场景，即测试需求
+    在运行 pytest 时添加选项 --allure-stories; 如：pytest tests.py --allure-stories story_01
     """
     assert 0 == 0
 
+
+@allure.feature('feature_story')
+@allure.story('story_02')
+def test_story_02():
+    """
+    用例描述：@allure.story() ,用于描述feature的用户场景，即测试需求
+    在运行 pytest 时添加选项 --allure-stories; 如：pytest tests.py --allure-stories story_02
+    """
+    assert 0
 
 
 if __name__ =="__main__":

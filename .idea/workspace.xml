@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0fb619ca-8473-4b85-bdc7-6612e17e7b8c" name="默认更改列表" comment="update Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/RunTestCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Attachment.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Attachment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Description.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Description.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Issue.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Issue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Link.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Story.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Story.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Testcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Testcase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAllureCases/test_Allure_Title.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestAllureCases/test_Allure_Title.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +25,7 @@
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$allure_all.coverage" NAME="allure_all Coverage Results" MODIFIED="1609838565668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestAllureCases" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$pytest_for_test_Allure_Features_test_04.coverage" NAME="pytest for test_Allure_Features.test_04 Coverage Results" MODIFIED="1609836956794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestAllureCases" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$pytest_in_allure_all_py.coverage" NAME="pytest in allure_all.py Coverage Results" MODIFIED="1609837466517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestAllureCases" />
-    <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$RunTestCase.coverage" NAME="RunTestCase Coverage Results" MODIFIED="1609846557232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$RunTestCase.coverage" NAME="RunTestCase Coverage Results" MODIFIED="1609851849864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$pytest_for_debug_pytest_fixture_Test_A.coverage" NAME="pytest for debug_pytest_fixture.Test_A Coverage Results" MODIFIED="1609404434489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$pytest_in_debug_pytest_fixture_py.coverage" NAME="pytest in debug_pytest_fixture.py Coverage Results" MODIFIED="1609404494713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$Allure_Features.coverage" NAME="Allure_Features Coverage Results" MODIFIED="1609832361690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Allure" />
@@ -28,11 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="e#121#134#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,10 +51,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RunTestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="171">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="e#113#122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <element signature="e#120#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+              <folding>
+                <element signature="e#116#129#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,19 +112,19 @@
         <option value="$PROJECT_DIR$/Allure/Allure_Features.py" />
         <option value="$PROJECT_DIR$/Allure/allure_all.py" />
         <option value="$PROJECT_DIR$/Allure/Test_Allure_Features.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py" />
         <option value="$PROJECT_DIR$/TestAllureCases/allure_all.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Story.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Title.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Issue.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Testcase.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Link.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Attachment.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py" />
-        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Description.py" />
         <option value="$PROJECT_DIR$/RunTestCase.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Testcase.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Issue.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Link.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Description.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Attachment.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Title.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Story.py" />
+        <option value="$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py" />
       </list>
     </option>
   </component>
@@ -273,7 +308,7 @@
       <workItem from="1609402168689" duration="173000" />
       <workItem from="1609402525063" duration="7711000" />
       <workItem from="1609418600004" duration="3723000" />
-      <workItem from="1609831220191" duration="13174000" />
+      <workItem from="1609831220191" duration="18406000" />
     </task>
     <task id="LOCAL-00001" summary="update Allure">
       <created>1609402644020</created>
@@ -352,7 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609845253275</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update Allure">
+      <created>1609846623547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609846623547</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update Allure">
+      <created>1609846984962</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609846984962</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -388,7 +437,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24781000" />
+    <option name="totallyTimeSpent" value="30013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -399,7 +448,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3231198" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3231198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,17 +481,10 @@
         <state relative-caret-position="-323" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_file_02.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -453,7 +495,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_file_01.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -470,111 +512,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Title.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#117#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestAllureCases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#110#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Link.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#116#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Issue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#117#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Testcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#120#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#120#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-          <folding>
-            <element signature="e#116#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Attachment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#122#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Story.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#118#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="29" selection-start-line="29" selection-end-line="33" selection-end-column="96" />
-          <folding>
-            <element signature="e#121#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Description.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="e#123#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,26 +569,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug_3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/debug_4.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RunTestCase.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Issue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#113#122#0" expanded="true" />
+            <element signature="e#117#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#116#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#120#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Attachment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#122#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Description.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#123#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Features.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#121#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Title.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#117#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#113#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Story.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#118#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Severity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#120#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestAllureCases/test_Allure_Step.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+          <folding>
+            <element signature="e#116#129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

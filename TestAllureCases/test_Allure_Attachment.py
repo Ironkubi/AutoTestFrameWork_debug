@@ -10,9 +10,8 @@ import os
 
 
 # allure.attach() 用于添加附件
-@allure.feature('test_module_attach')
-@allure.story('test_story_01')
-@allure.severity('blocker')
+@allure.feature("feature_attachment")
+@allure.story("story_attachment")
 def test_attachments():
     # 在测试报告中画了一个html页面
     allure.attach('<head></head><body><strong>HTML页面，HelloWorld！</strong> </body>', 'Attach with HTML type',
@@ -23,9 +22,8 @@ def test_attachments():
     allure.attach.file('./test.jpg',"图片美女", allure.attachment_type.JPG)
 
 
-@allure.feature('test_module_attach')
-@allure.story('test_story_02')
-@allure.severity('blocker')
+@allure.feature('feature_attachment')
+@allure.story('story_attachment')
 # @pytest.mark.test
 def test_attach():
     allure.attach('A text attacment in module scope fixture', 'text 附件', allure.attachment_type.TEXT)

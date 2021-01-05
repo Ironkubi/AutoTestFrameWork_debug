@@ -18,11 +18,11 @@ def str_add(str1, str2):
     return str1 + str2
 
 
-@allure.feature('test_module_step')
+@allure.feature('feature_step')
 @allure.story('test_story_01')
 @allure.issue("http://www.baidu.com")
 @allure.testcase("http://www.testlink.com")
-def test_15():
+def test_step_01():
     str1 = 'hello'
     str2 = 'world'
     assert str_add(str1, str2) == 'helloworld'
@@ -49,7 +49,7 @@ def nested_step_with_arguments(arg1, arg2):
 
 
 # https://www.cnblogs.com/poloyy/p/12716659.html
-@allure.feature('test_module_step')
+@allure.feature('feature_step')
 @allure.story('test_story_02')
 @allure.step("第五步")
 def test_with_nested_steps():
@@ -70,7 +70,7 @@ def input_UsernameAndPassWord():
 def sendAndClickLogin(arg1, arg2):
     pass
 
-@allure.feature('test_module_step')
+@allure.feature('feature_step')
 @allure.story('test_story_03')
 @allure.step("验证登录过程")
 def test_login():
@@ -78,7 +78,7 @@ def test_login():
     input_UsernameAndPassWord()
 
 
-@allure.feature('test_module_step')
+@allure.feature('feature_step')
 @allure.story('test_story_04')
 # @pytest.mark.test 默认走conftest.py
 def test_with_fixture_step(conftest_step):
@@ -92,10 +92,10 @@ def login():
 
 # @allure.epic()
 @allure.severity('critical')
-@allure.feature('test_module_step')
+@allure.feature('feature_step')
 @allure.story('test_story_05')
 @allure.title('用于描述用例名称')
-def test_17():
+def test_step_02():
     login()
 
     # 可以在用例内部编写用例步骤，等同于@allure.step()

@@ -8,23 +8,13 @@ import pytest
 import os
 
 
-# @allure.feature()用于描述被测试产品需求
-@allure.feature('test_module_feature')
-def test_01():
+@allure.feature("feature")
+def test_feature_01():
     """
-    用例描述：在运行 pytest 时添加选项--allure-feature
-    pytest tests.py --allure-feature feature1
-    """
-    assert 0
-
-@allure.feature('test_module_feature')
-def test_02():
-    """
-    用例描述：在运行 pytest 时添加选项--allure-feature
-    pytest tests.py --allure-feature feature1
+    用例描述：@allure.feature(),用于描述被测试产品需求
+    在运行 pytest 时添加选项--allure-feature; 如：pytest tests.py --allure-feature feature
     """
     assert 0 == 0
-
 
 
 if __name__ =="__main__":
