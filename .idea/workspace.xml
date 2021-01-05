@@ -3,10 +3,83 @@
   <component name="ChangeListManager">
     <list default="true" id="0fb619ca-8473-4b85-bdc7-6612e17e7b8c" name="默认更改列表" comment="update Allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/RunTestCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_file_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_file_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_file_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_file_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug_pytest_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug_pytest_fixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/Allure_Features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Allure/Allure_Features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/attachments/1c8578cac25266b8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/attachments/41b48a4bb944a898.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/attachments/5364c4a60652d99f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/attachments/b2c8f0e55243cd39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/attachments/be06c3e4df8524c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/attachments/daabac3cca7f800c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/1477154ec0344017.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/1ae9a290e628e894.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/20bc693612bb5225.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/2137d5663bd3a8dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/252a1c6bd29d6252.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/25a67aff4f3a0638.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/3210cbd632b14d0b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/35efb4b0c144d614.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/4a2fb473888c0432.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/4a96166ba7a8a1f9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/4d1789fa45fd5e6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/5765cabe476e7c05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/6bc7f4dbab1409d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/6c08833e33fc9f59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/6c0ddad5614e7764.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/7b578abf15d96021.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/7bfa21cd8fa19212.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/9156bf9483272093.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/916db100de8bbc72.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/9980e1617458d817.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/9d3c1b6b1d670e25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/a21a93fd73e48d20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/aecc91e2a9c1f0c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/b5b183aae3b36ce3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/c381d042c1921b1f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/d20646142f3d4414.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/d4c14976074edc99.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/e7d8b05027e817a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/test-cases/f1b38786ffdc0a6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allure/report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/699be578-60b5-466e-b621-2da894d50243-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/8e3fe296-7e71-4bd7-b937-3b26ce9c37ad-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/8ecbe480-c430-4f61-abe3-2a3a9f24a829-result.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,67 +91,55 @@
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$RunTestCase.coverage" NAME="RunTestCase Coverage Results" MODIFIED="1609406068748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$pytest_for_debug_pytest_fixture_Test_A.coverage" NAME="pytest for debug_pytest_fixture.Test_A Coverage Results" MODIFIED="1609404434489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$pytest_in_debug_pytest_fixture_py.coverage" NAME="pytest in debug_pytest_fixture.py Coverage Results" MODIFIED="1609404494713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$Allure_Features.coverage" NAME="Allure_Features Coverage Results" MODIFIED="1609832361690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Allure" />
     <SUITE FILE_PATH="coverage/AutoTestFrameWork_debug$debug_pytest_fixture.coverage" NAME="debug_pytest_fixture Coverage Results" MODIFIED="1609406567953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Allure/Allure_Story.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Allure/Allure_Features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="241">
+              <caret line="377" lean-forward="true" selection-start-line="377" selection-end-line="377" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug_pytest_fixture_return.py">
+        <entry file="file://$PROJECT_DIR$/debug_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44" />
+            <state relative-caret-position="-975" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug_pytest_mark_skipif_xfail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-405" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug_pytest_mark_parametrize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-652" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Allure/Allure_Story.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_file_02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_file_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RunTestCase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/debug_pytest_fixture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="266">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -95,14 +156,17 @@
         <option value="$PROJECT_DIR$/TestCases/test_file_01.py" />
         <option value="$PROJECT_DIR$/TestCases/test_file_02.py" />
         <option value="$PROJECT_DIR$/debug_pytest_fixture.py" />
+        <option value="$PROJECT_DIR$/debug_3.py" />
+        <option value="$PROJECT_DIR$/debug_2.py" />
+        <option value="$PROJECT_DIR$/Allure/Allure_Features.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1038" />
-    <option name="height" value="742" />
+    <option name="x" value="38" />
+    <option name="y" value="53" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -121,21 +185,6 @@
               <item name="AutoTestFrameWork_debug" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTestFrameWork_debug" type="462c0819:PsiDirectoryNode" />
               <item name="Allure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTestFrameWork_debug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTestFrameWork_debug" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTestFrameWork_debug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTestFrameWork_debug" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTestFrameWork_debug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTestFrameWork_debug" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +210,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.debug_pytest_fixture">
+  <component name="RunManager" selected="Python.Allure_Features">
+    <configuration name="Allure_Features" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoTestFrameWork_debug" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Allure" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Allure/Allure_Features.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="RunTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutoTestFrameWork_debug" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,6 +279,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Allure_Features" />
         <item itemvalue="Python.debug_pytest_fixture" />
         <item itemvalue="Python.RunTestCase" />
       </list>
@@ -224,7 +296,9 @@
       <option name="presentableId" value="Default" />
       <updated>1609402167509</updated>
       <workItem from="1609402168689" duration="173000" />
-      <workItem from="1609402525063" duration="4164000" />
+      <workItem from="1609402525063" duration="7711000" />
+      <workItem from="1609418600004" duration="3723000" />
+      <workItem from="1609831220191" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="update Allure">
       <created>1609402644020</created>
@@ -247,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609405897627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update Allure">
+      <created>1609406779047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609406779047</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update Allure">
+      <created>1609409028653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609409028653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -259,19 +347,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4337000" />
+    <option name="totallyTimeSpent" value="12897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4222365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4317549" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4317549" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,6 +369,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,9 +381,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update Allure" />
     <MESSAGE value="update debug_pytest_fixture.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update debug_pytest_fixture.py" />
+    <MESSAGE value="update Allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Allure" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/debug_pytest-ordering.py">
@@ -303,22 +391,48 @@
         <state relative-caret-position="-323" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Allure/Allure_Story.py">
+    <entry file="file://$PROJECT_DIR$/debug_pytest_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="154" column="20" lean-forward="true" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_3.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/debug_pytest_fixture_return.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/test_file_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="95">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -329,24 +443,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_file_01.py">
+    <entry file="file://$PROJECT_DIR$/Allure/Allure_Story.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RunTestCase.py">
+    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug_pytest_fixture.py">
+    <entry file="file://$PROJECT_DIR$/debug_pytest_mark_skipif_xfail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_pytest_mark_parametrize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allure/Allure_Features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+          <caret line="377" lean-forward="true" selection-start-line="377" selection-end-line="377" />
         </state>
       </provider>
     </entry>
