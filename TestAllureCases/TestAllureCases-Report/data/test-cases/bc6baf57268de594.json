@@ -1,0 +1,87 @@
+{
+  "uid" : "bc6baf57268de594",
+  "name" : "test_attach",
+  "fullName" : "TestAllureCases.test_Allure_Attachment#test_attach",
+  "historyId" : "9e0f2367954846e6d18eee918cf4ffd3",
+  "time" : {
+    "start" : 1622952360704,
+    "stop" : 1622952360707,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e61683ca2fca05f0",
+      "name" : "text 附件",
+      "source" : "e61683ca2fca05f0.txt",
+      "type" : "text/plain",
+      "size" : 40
+    }, {
+      "uid" : "255fe307cab7ae5a",
+      "name" : " html ",
+      "source" : "255fe307cab7ae5a.html",
+      "type" : "text/html",
+      "size" : 34
+    }, {
+      "uid" : "47992d47d7b835b7",
+      "name" : " png 图片",
+      "source" : "47992d47d7b835b7.png",
+      "type" : "image/png",
+      "size" : 28354
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature_attachment"
+  }, {
+    "name" : "story",
+    "value" : "story_attachment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestAllureCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_Allure_Attachment"
+  }, {
+    "name" : "host",
+    "value" : "DP-20201027YCBD"
+  }, {
+    "name" : "thread",
+    "value" : "616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestAllureCases.test_Allure_Attachment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc6baf57268de594.json",
+  "parameterValues" : [ ]
+}

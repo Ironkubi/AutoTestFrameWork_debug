@@ -1,0 +1,81 @@
+{
+  "uid" : "7b8be5df5bc18544",
+  "name" : "test_attachments",
+  "fullName" : "TestAllureCases.test_Allure_Attachment#test_attachments",
+  "historyId" : "cf276c5d01cc33371f9e38e8f160f867",
+  "time" : {
+    "start" : 1622952360692,
+    "stop" : 1622952360702,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e50dad58a2974d1f",
+      "name" : "Attach with HTML type",
+      "source" : "e50dad58a2974d1f.html",
+      "type" : "text/html",
+      "size" : 70
+    }, {
+      "uid" : "83b9a0f7b17e2fb7",
+      "name" : "图片美女",
+      "source" : "83b9a0f7b17e2fb7.jpg",
+      "type" : "image/jpg",
+      "size" : 45320
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "feature_attachment"
+  }, {
+    "name" : "story",
+    "value" : "story_attachment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestAllureCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_Allure_Attachment"
+  }, {
+    "name" : "host",
+    "value" : "DP-20201027YCBD"
+  }, {
+    "name" : "thread",
+    "value" : "616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestAllureCases.test_Allure_Attachment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b8be5df5bc18544.json",
+  "parameterValues" : [ ]
+}
