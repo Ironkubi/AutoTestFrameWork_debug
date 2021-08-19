@@ -9,7 +9,6 @@ import pytest
 import os
 
 
-
 @allure.feature("feature_title")
 @allure.story("story_title_01")
 @allure.title("This test has a custom title")
