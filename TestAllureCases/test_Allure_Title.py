@@ -15,7 +15,6 @@ def test_title_01():
     """
     用例描述：@allure.title(), 用于描述用例名称
     """
-
     assert 1
 
 
